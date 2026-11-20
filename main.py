@@ -1,9 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
-from PIL import Image, ImageFile
+from PIL import Image
 import os
 
-im: ImageFile
 
 def open_file():
     with filedialog.askopenfile('rb', title='select file') as file:
